@@ -26,8 +26,6 @@ console.log(result)
 
 
 
-
-
 /* 
 QUESTION 2
 Write a function using a for loop to convert an array of numbers from inches to feet.
@@ -78,6 +76,8 @@ console.log(NTurtles)
 
 
 
+
+
 /* 
 QUESTION 4
 Write an arrow function to find the max number in a list. Do not use the Math.max function.
@@ -96,3 +96,33 @@ let num2 = 0
 largest()
 
 
+
+
+
+https://www.codewars.com/kata/551b4501ac0447318f0009cd
+//CONVERT A BOOLEAN TO A STRING
+function booleanToString(b){
+    if (b == true){
+      return "true"
+    } else{
+      return "false"
+    }
+  }
+
+
+  https://www.codewars.com/kata/53da3dbb4a5168369a0000fe
+//EVEN OR ODD
+function evenOrOdd(n) {
+    if (n % 2 == 0){
+      return 'Even'} else {
+        return 'Odd'
+      }
+}
+
+
+
+https://www.codewars.com/kata/5265326f5fda8eb1160004c8
+//CONVERT A NUMBER TO A STRING
+function numberToString(num) {
+    return num.toString()
+}
